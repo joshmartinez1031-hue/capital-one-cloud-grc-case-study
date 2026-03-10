@@ -21,7 +21,7 @@ This case study was conducted to:
 
 ## Root Cause Analysis 
 
-The following table identifies the primary control failures and governance weakness that contributed to the Capital One Breach 
+The following table identifies the primary control failures and governance weaknesses that contributed to the Capital One Breach 
 
 | Security Area | Control Failure | Risk Impact | 
 |---------------|-----------------|-------------|
@@ -29,3 +29,23 @@ The following table identifies the primary control failures and governance weakn
 | Identify & Access Management (IAM) | Overly permissive IAM allowed the attacker to access sensitive storage resources | Weak access controls increased the risk of data exposure | 
 | Security Monitoring | Insufficent monitoring and logging delayed detection of the atackers activity | Lack of visibility allowed the attacker to access data without immediate detection | 
 | Governance & Risk Management | Inadequate cloud security governance and configuration auditing | Weak oversight increased the likelihood of configuration-related vulnerabilites | 
+
+## Cyber Risk Register  
+
+The following cyber risks register identifies key security risks revealed by the Capital One breach and outline potential mitigation strategies
+
+| Risk | Likelihood | Impact | Control Gap | Recommend Mitigation | 
+|------| -----------|--------|-------------|----------------------|
+| Cloud Misconfiguration | High | High | Weak cloud configuration management allowed firewall misconfiguration | Implement continous cloud configuration monitoring and automated security auditing | 
+| Excessive IAM Permissions | High | High | Overly permissive access roles allowed attacker access to sensitive storage resources | Enforce least privilege access policies and regular IAM permission reviews | 
+| Insufficient Security Monitoring | Medium | High | Lack of effective monitoring delayed detection of malicious activity | Deploy centralized logging and real-time security monitoring tools | 
+| Weak Cloud Governance | Medium | High | Inadequate oversight of cloud security policies and configuration auditing | Establish stronger cloud governance policies and regular security complaince assesments |
+
+## Governance & Security Recommendations 
+
+The following recomendations outline key governance and security improvements that organizations should implement to reduce the risk of similar cloud security incidents 
+
+- Implement stronger cloud configuration management and continous security auditing to prevent misconfigured cloud resources
+- Enforce least privilege access policies to ensure users and services only have the minimumn permission required
+- Deploy centralized logging and real-time security monitoring tools to detect suspicious activity more quickly
+- Establish stronger cloud security governance policies and regular assessments to ensure security standards are maintained 
