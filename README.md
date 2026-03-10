@@ -60,7 +60,7 @@ The following diagram illustrates the attack path used in 2019 Capital One cloud
 
 The Capital One breach exposed several failures across the NIST Cybersecurity Framework functions. The table below maps the identified security failures to the relevant NIST CSF Categories 
 
-| NIST CSF Function | Security Gap Identified | Example From Beach | 
+| NIST CSF Function | Security Gap Identified | Example From Breach | 
 |-------------------|-------------------------|--------------------|
 | Identity | Weak cloud governance and risk oversight | Lack of configuration auditing and risk assessment for cloud infrastructure |
 | Protect | Overly permissive IAM roles | Excessive access permissions allowed attacker to access storage resources | 
