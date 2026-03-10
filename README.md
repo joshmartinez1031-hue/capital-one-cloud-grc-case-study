@@ -49,3 +49,9 @@ The following recomendations outline key governance and security improvements th
 - Enforce least privilege access policies to ensure users and services only have the minimumn permission required
 - Deploy centralized logging and real-time security monitoring tools to detect suspicious activity more quickly
 - Establish stronger cloud security governance policies and regular assessments to ensure security standards are maintained 
+
+## Attack Path Diagram 
+
+The following diagram illustrates the attack path used in 2019 Capital One cloud breach
+
+![Capital One Attack Path](capital-one-attack-path.jpg)
